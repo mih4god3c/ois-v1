@@ -3,6 +3,7 @@ public class Gravitacija {
     public static void main (String[]args) {
 
         
+
         
     }
     public int gravitacijskiPospesek (int nadmorskaVisina){
@@ -12,5 +13,11 @@ public class Gravitacija {
         float gravitacijskiPospesek = (konstanta * masaZemlje) / (Math.pow((polmerZemlje + nadmorskaVisina), 2));
         return gravitacijskiPospesek;
         
+
+    }
+    public static int izpis (int podanaVisina){
+        System.out.println(podanaVisina)';
+        System.out.println(gravitacijskiPospesek);
+
     }
 }
